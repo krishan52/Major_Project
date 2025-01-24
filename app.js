@@ -22,6 +22,8 @@ const userRouter = require("./routes/user.js");
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/lodgr";
 
+// const dbUrl =  process.env.ATLASDB_URL;
+
 main()
   .then(() => {
     console.log("DB Connected"); //main func ko call krne k liye
